@@ -16,3 +16,4 @@ You can use overpy (a python frontend for overpass API of OSM) to get OSM data f
 
 (Tip: you can use overpass-turbo to frame queries)
 
+[Link to Delhi POI Scatter map](./delhi-poi-scatter.html).
