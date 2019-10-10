@@ -1,4 +1,4 @@
-I"�<p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
+I"<p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
 
 <p>The task was to create clusters of distinct commercial centers or markets using points of interest data of a city (the city could be yours). Points of interest (POI) data provides location information of different places along with their defining tags like school, type of outlets, type of building, etc.</p>
 
@@ -11,4 +11,5 @@ You can use overpy (a python frontend for overpass API of OSM) to get OSM data f
 
 <p>(Tip: you can use overpass-turbo to frame queries)</p>
 
+<p><a href="./assets/html/delhi-poi-scatter.html">Link to Delhi POI Scatter map</a>.</p>
 :ET
