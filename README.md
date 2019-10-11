@@ -14,14 +14,20 @@ cd commercial-centers-using-POI
 jupyter notebook
 ```
 Start the jupyter server. The following should be executed in order.
-##### 1. gather-data.ipynb
+*   gather-data.ipynb
+*   DBSCAN-remove-noise.ipynb
+*   create-clusters.ipynb
+
+---
+
+#### 1. gather-data.ipynb
 It uses Overpy (Python wrapper for Overpass) to gather all the nodes of a particular location and stores the data into a csv.
 It also cleans the dataset based on amenities.
 
-##### 2. DBSCAN-remove-noise.ipynb
+#### 2. DBSCAN-remove-noise.ipynb
 It removes the noise/outliers present in the dataset. It also gives the number of clusters that can be formed from the dataset.
 
-##### 3. create-clusters.ipynb
+#### 3. create-clusters.ipynb
 It uses KMeans Clustering to create clusters and plot them on Google Map using gmplot library.
 
-
+Check out the [Documentation](https://aakashjhawar.github.io/commercial-centers-using-POI/)
