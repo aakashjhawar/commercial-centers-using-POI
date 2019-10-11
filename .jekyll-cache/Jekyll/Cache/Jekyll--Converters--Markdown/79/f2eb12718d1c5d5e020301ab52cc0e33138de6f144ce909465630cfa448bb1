@@ -1,4 +1,4 @@
-I"�<p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
+I"'<p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
 
 <p>The task was to create clusters of distinct commercial centers or markets using points of interest data of a city. Points of interest (POI) data provides location information of different places along with their defining tags like school, type of outlets,type of building, etc.</p>
 
@@ -71,6 +71,12 @@
 <p>Everything that is not signal is by definition noise, so everything that DBSCAN cannot cluster is labeled “noise”. 
 Around 100 points were marked as outliers and removed from the dataset.
 DBSCAN can also predict the number of clusters which can be formed on the dataset.</p>
+
+<h4 id="agglomerative-hierarchical-clustering">Agglomerative Hierarchical Clustering</h4>
+
+<p>Agglomerative clustering works in a “bottom-up” manner. That is, each object is initially considered as a single-element cluster (leaf). At each step of the algorithm, the two clusters that are the most similar are combined into a new bigger cluster (nodes). This procedure is iterated until all points are member of just one single big cluster (root).</p>
+
+<p><img src="./assets/img/delhi-agglomerative.png" alt="delhi agglomerative hierarchical" /></p>
 
 <h4 id="create-clusters-using-k-means">Create Clusters using K-Means</h4>
 

@@ -73,6 +73,12 @@ Everything that is not signal is by definition noise, so everything that DBSCAN 
 Around 100 points were marked as outliers and removed from the dataset.
 DBSCAN can also predict the number of clusters which can be formed on the dataset.
 
+#### Agglomerative Hierarchical Clustering
+
+Agglomerative clustering works in a “bottom-up” manner. That is, each object is initially considered as a single-element cluster (leaf). At each step of the algorithm, the two clusters that are the most similar are combined into a new bigger cluster (nodes). This procedure is iterated until all points are member of just one single big cluster (root).
+
+![delhi agglomerative hierarchical](./assets/img/delhi-agglomerative.png)
+
 #### Create Clusters using K-Means
 
 K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids.
