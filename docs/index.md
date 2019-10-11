@@ -69,13 +69,29 @@ The dataset contains some points which are isolated and do not contribute to for
 #### Remove noise using DBSCAN
 DBSCAN, (Density-Based Spatial Clustering of Applications with Noise), captures the insight that clusters are dense groups of points. The idea is that if a particular point belongs to a cluster, it should be near to lots of other points in that cluster.
 
+The value of epsilon (the local radius for expanding clusters) is 1/6371 i.e., 1 kilometer per radian.
+```
+kms_per_radian = 6371.0088
+epsilon = 1 / kms_per_radian
+```
+
 Everything that is not signal is by definition noise, so everything that DBSCAN cannot cluster is labeled "noise". 
 Around 100 points were marked as outliers and removed from the dataset.
-DBSCAN can also predict the number of clusters which can be formed on the dataset.
+DBSCAN predict the number of clusters which can be formed on the dataset which was 102.
+
+#### Agglomerative Hierarchical Clustering
+
+Agglomerative clustering works in a “bottom-up” manner. That is, each object is initially considered as a single-element cluster (leaf). At each step of the algorithm, the two clusters that are the most similar are combined into a new bigger cluster (nodes). This procedure is iterated until all points are member of just one single big cluster (root).
+
+![delhi agglomerative hierarchical](./assets/img/delhi-agglomerative.png)
+
+From the plot, we can conclude that many small clusters can be created from the dataset. 
 
 #### Create Clusters using K-Means
 
 K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids.
+
+The total number of clusters is 102.
 
 <!-- Elbow Method can also be used to calculate number of Clusets. -->
 
@@ -83,7 +99,7 @@ K-means clustering is one of the simplest and popular unsupervised machine learn
 
 #### Find Polygon points using Convex Hull
 
-Given a set of points in the plane. the convex hull of the set is the smallest convex polygon that contains all the points in it.
+Given a set of points in the plane, the convex hull of the set is the smallest convex polygon that contains all the points in it.
 
 ![convex hull](./assets/img/convex_hull.png)
 

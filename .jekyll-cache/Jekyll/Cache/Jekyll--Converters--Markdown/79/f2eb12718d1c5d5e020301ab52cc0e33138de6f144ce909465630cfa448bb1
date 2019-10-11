@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
-
-    
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134843636-3"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-134843636-3');
-      </script>
-    
-    <meta charset="UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Commercial Centers using POI | Identify Commercial Centers/Markets using Point of Interest (POI) data</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Commercial Centers using POI" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Identify Commercial Centers/Markets using Point of Interest (POI) data" />
-<meta property="og:description" content="Identify Commercial Centers/Markets using Point of Interest (POI) data" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Commercial Centers using POI" />
-<script type="application/ld+json">
-{"description":"Identify Commercial Centers/Markets using Point of Interest (POI) data","@type":"WebSite","headline":"Commercial Centers using POI","name":"Commercial Centers using POI","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Commercial Centers using POI</h1>
-      <h2 class="project-tagline">Identify Commercial Centers/Markets using Point of Interest (POI) data</h2>
-      
-      
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      <p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
+I"'<p>There’s a lot of open data available about the demographics and geography of the planet. But this information is not necessarily supervised in any particular structure from which insights can be drawn.</p>
 
 <p>The task was to create clusters of distinct commercial centers or markets using points of interest data of a city. Points of interest (POI) data provides location information of different places along with their defining tags like school, type of outlets,type of building, etc.</p>
 
@@ -116,14 +68,9 @@
 <h4 id="remove-noise-using-dbscan">Remove noise using DBSCAN</h4>
 <p>DBSCAN, (Density-Based Spatial Clustering of Applications with Noise), captures the insight that clusters are dense groups of points. The idea is that if a particular point belongs to a cluster, it should be near to lots of other points in that cluster.</p>
 
-<p>The value of epsilon (the local radius for expanding clusters) is 1/6371 i.e., 1 kilometer per radian.</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kms_per_radian = 6371.0088
-epsilon = 1 / kms_per_radian
-</code></pre></div></div>
-
 <p>Everything that is not signal is by definition noise, so everything that DBSCAN cannot cluster is labeled “noise”. 
 Around 100 points were marked as outliers and removed from the dataset.
-DBSCAN predict the number of clusters which can be formed on the dataset which was 102.</p>
+DBSCAN can also predict the number of clusters which can be formed on the dataset.</p>
 
 <h4 id="agglomerative-hierarchical-clustering">Agglomerative Hierarchical Clustering</h4>
 
@@ -131,13 +78,9 @@ DBSCAN predict the number of clusters which can be formed on the dataset which w
 
 <p><img src="./assets/img/delhi-agglomerative.png" alt="delhi agglomerative hierarchical" /></p>
 
-<p>From the plot, we can conclude that many small clusters can be created from the dataset.</p>
-
 <h4 id="create-clusters-using-k-means">Create Clusters using K-Means</h4>
 
 <p>K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids.</p>
-
-<p>The total number of clusters is 102.</p>
 
 <!-- Elbow Method can also be used to calculate number of Clusets. -->
 
@@ -145,7 +88,7 @@ DBSCAN predict the number of clusters which can be formed on the dataset which w
 
 <h4 id="find-polygon-points-using-convex-hull">Find Polygon points using Convex Hull</h4>
 
-<p>Given a set of points in the plane, the convex hull of the set is the smallest convex polygon that contains all the points in it.</p>
+<p>Given a set of points in the plane. the convex hull of the set is the smallest convex polygon that contains all the points in it.</p>
 
 <p><img src="./assets/img/convex_hull.png" alt="convex hull" /></p>
 
@@ -158,12 +101,4 @@ Gmplot also draws polygon and generates the HTML file.</p>
 
 <p><a href="./assets/html/delhi-poi-polygons.html">Link to Delhi Polygons with POI HTML</a></p>
 
-
-
-      <footer class="site-footer">
-        
-        <!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
-      </footer>
-    </main>
-  </body>
-</html>
+:ET
