@@ -30,4 +30,4 @@ It removes the noise/outliers present in the dataset. It also gives the number o
 #### 3. create-clusters.ipynb
 It uses KMeans Clustering to create clusters and plot them on Google Map using gmplot library.
 
-Check out the [Documentation](https://aakashjhawar.github.io/commercial-centers-using-POI/)
+Check out the [Github repo page](https://aakashjhawar.github.io/commercial-centers-using-POI/)
