@@ -123,6 +123,12 @@ Higher the number of nodes, bigger the market.
 The threshold is 45, i.e., if a cluster have nodes greater than 45, than it would be most significant.
 Out of 102 polygons, 17 are most significant, 81 are less significant while 4 have nodes less than 5, so they were rejected.
 
-[Link to Delhi Polygons HTML](http://127.0.0.1:4000/assets/html/delhi-polygons-most-significant.html)
+There are two colours of polygon. Polygons with Red colour are more significant that polygons having Yellow colour.
 
-[Link to Delhi Polygons with POI HTML](http://127.0.0.1:4000/assets/html/delhi-poi-polygons-most-significant.html)
+[Link to Delhi Polygons with Most Significant Clusters HTML](http://127.0.0.1:4000/assets/html/delhi-polygons-most-significant.html)
+
+[Link to Delhi Polygons with POI and Most Significant Clusters HTML](http://127.0.0.1:4000/assets/html/delhi-poi-polygons-most-significant.html)
+
+---
+
+Checkout my other blogs on [medium.com/@aakashjhawar](https://medium.com/@aakashjhawar).
