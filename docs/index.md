@@ -113,3 +113,16 @@ Gmplot also draws polygon and generates the HTML file.
 
 [Link to Delhi Polygons with POI HTML](./assets/html/delhi-poi-polygons.html)
 
+![Delhi Polygon](./assets/img/delhi-polygon.png)
+
+
+#### Classification of Most Significant Clusters
+
+Most significant clusters are classified on the basis of number of nodes/shops in a particular polygon.
+Higher the number of nodes, bigger the market.
+The threshold is 45, i.e., if a cluster have nodes greater than 45, than it would be most significant.
+Out of 102 polygons, 17 are most significant, 81 are less significant while 4 have nodes less than 5, so they were rejected.
+
+[Link to Delhi Polygons HTML](http://127.0.0.1:4000/assets/html/delhi-polygons-most-significant.html)
+
+[Link to Delhi Polygons with POI HTML](http://127.0.0.1:4000/assets/html/delhi-poi-polygons-most-significant.html)
