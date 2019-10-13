@@ -129,24 +129,25 @@ There are two colours of polygon. Polygons with Red colour are more significant 
 
 [Link to Delhi Polygons with POI and Most Significant Clusters HTML](http://127.0.0.1:4000/assets/html/delhi-poi-polygons-most-significant.html) -->
 
-<!-- [Delhi food polygon](./assets/html/d/food-polygon.html)
-[Delhi entertainment polygon](./assets/html/d/entertainment-polygon.html)
-[Delhi market polygon](./assets/html/d/food-polygon.html)
-[Delhi entertainment](./assets/html/d/entertainment-polygon.html)
+[Delhi foods polygons HTML](./assets/html/d/food-polygon.html)
 
+[Delhi entertainments polygons HTML](./assets/html/d/entertainment-polygon.html)
 
-/food-polygon.html
-data/amenity/market-polygon.html
-data/amenity/bank-polygon.html
-data/amenity/toilets-polygon.html
-data/amenity/education-polygon.html
-data/amenity/hospital-polygon.html
-data/amenity/parking-polygon.html
-data/amenity/entertainment-polygon.html
-data/amenity/worship-polygon.html
-data/amenity/fuel-polygon.html
+<!-- [Delhi market polygon](./assets/html/d/market-polygon.html) -->
 
-data/amenity/others-polygon.html -->
+[Delhi banks polygons HTML](./assets/html/d/bank-polygon.html)
+
+<!-- [Delhi toilets polygon](./assets/html/d/toilets-polygon.html) -->
+
+[Delhi hospitals polygons HTML](./assets/html/d/hospital-polygon.html)
+
+[Delhi others polygons HTML](./assets/html/d/others-polygon.html)
+
+<!-- [Delhi parkings polygons HTML](./assets/html/d/parking-polygon.html) -->
+
+<!-- [Delhi worship polygon](./assets/html/d/worship-polygon.html) -->
+
+<!-- [Delhi fuel polygon](./assets/html/d/fuel-polygon.html) -->
 
 ---
 
