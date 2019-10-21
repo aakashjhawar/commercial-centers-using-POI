@@ -129,6 +129,9 @@ There are two colours of polygon. Polygons with Red colour are more significant 
 
 [Link to Delhi Polygons with POI and Most Significant Clusters HTML](http://127.0.0.1:4000/assets/html/delhi-poi-polygons-most-significant.html) -->
 
+![Delhi Polygon](./assets/img/amenities-count.png)
+
+
 [Delhi foods polygons HTML](./assets/html/d/food-polygon.html)
 
 [Delhi entertainments polygons HTML](./assets/html/d/entertainment-polygon.html)
