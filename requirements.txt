@@ -290,7 +290,7 @@ requests-unixsocket==0.1.5
 retrying==1.3.3
 rollbar==0.14.7
 roman==2.0.0
-rope==0.10.5
+rope==0.11.0
 rsa==3.4.2
 Rtree==0.8.3
 s3transfer==0.2.1
