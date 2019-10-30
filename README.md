@@ -11,6 +11,7 @@ How to use
 ```    
 git clone git@github.com:aakashjhawar/commercial-centers-using-POI.git
 cd commercial-centers-using-POI
+pip3 install -r requirements.txt
 jupyter notebook
 ```
 Start the jupyter server. The following should be executed in order.
