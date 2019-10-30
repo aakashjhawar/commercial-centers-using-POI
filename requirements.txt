@@ -39,7 +39,7 @@ colorama==0.4.1
 command-not-found==0.3
 commonmark==0.9.0
 coremltools==2.0b1
-cryptography==2.1.4
+cryptography==2.3
 cssselect==1.0.3
 cupshelpers==1.0
 cvxpy==1.0.24
