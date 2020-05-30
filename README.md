@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
 
+Checkout https://aakashjhawar.github.io/commercial-centers-using-POI/
 
 Identify commercial centers using Points of Interest (POI) data by clustering these points into commercial centers/markets.
 
